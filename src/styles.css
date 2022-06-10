@@ -1,0 +1,26 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+main,
+#root,
+.App,
+body {
+  width: 100vw;
+  height: 100vh;
+
+  margin: 0;
+
+  background: #0d0d1c;
+  overflow: hidden;
+}
+
+canvas {
+  cursor: grab;
+  pointer-events: all;
+}
+
+canvas:active {
+  cursor: grabbing;
+}
